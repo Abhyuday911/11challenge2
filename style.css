@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: gilroy;
+  }
+  body,
+  html {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(170, 186, 189);
+  }
+  #main {
+    width: 100%;
+    height: 100%;
+  }
+  .center{
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  }
+  .nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;  
+      width: 100%;
+      background-color: rgb(255, 255, 255);
+      height: 13%;
+  }
+  .first{
+      margin-left: 20px;
+      width: 20%;
+  }
+  .second{
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 25%;
+
+  }
+  .third{
+      margin-left: -10px;
+  }
+  .fourth{
+      margin-right: 20px;
+  }
+  .niche{
+      display: flex;
+    height: 87%;
+  }
+.f{
+    height: 100%;
+    width: 40%;
+
+}
+.s{
+    position: relative;
+    height: 100%;
+    width: 40%;
+    background-image: url(https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=474&q=80);
+    background-position: center;
+    background-size: cover;
+    
+}
+.t{
+    height: 100%;
+    width: 20%;
+}
+img{
+    width: 100%;
+}
+.s h1{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 50px;
+    margin-top: 60px;
+}
+.s p{
+    font-size: 13px;
+    margin-top: 50px;
+}
+button{
+    margin-top: 40px;
+    background-color: rgb(2, 2, 2);
+    color: #fff;
+    height: 50px;
+    width: 240px;
+}
+.abslute{
+    position: absolute;
+    left: -50%;
+}
+.z2 h1{
+    width: 150px;
+    font-size: 70px;
+    transform: rotateZ(-90deg);
+    margin: ;
+}
+span{
+    font-weight: 100;
+}
+#eye{
+    border-radius: 50%;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+.t2 h5{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.nahi{
+    margin-top: 1000px;
+}
+.t2 i{
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-bottom: 50px; 
+}
+.t2{
+    position: absolute;
+    bottom: 30%;
+}
